@@ -1,0 +1,151 @@
+
+
+.header {
+  background-color: #39474e;
+  height:111px;
+}
+
+
+}
+
+
+.TIYlogo{
+  position: relative;
+ top: 50%;
+ transform: translateY(-50%);
+ padding-top: 10px;
+}
+
+
+.tophalf{
+  height:600px;
+  background-image: url('../images/office.jpeg');
+
+}
+.getstarted{
+  height: 30px;
+  width: 45px;
+  background-color: #6fbbb7;
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 20px;
+  font-family: serif;
+  font-style: italic;
+  transform: translateY(-50%);
+  }
+
+
+.where {
+  font-size: 60px;
+  font-weight:bold;
+  font-family:serif;
+  color:white;
+  margin-top:200px;
+  margin-left: 50px;
+  padding:10px;
+}
+
+.learnto {
+  font-size: 30px;
+  font-family: serif;
+  font-weight: bold;
+  color: white;
+  margin-left:50px;
+  margin-bottom: 20px;
+  padding:20px;
+}
+.button{
+  height: 50px;
+  width: 100px;
+  background-color: #6fbbb7;
+  color:white;
+  font-style: italic;
+  font-family: serif;
+  font-size: 30px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+
+
+
+.lefthdcol{
+  margin-left: 5%;
+  color: white;
+  font-size: 25px;
+}
+
+.lefttext{
+  font-weight: 400;
+  line-height:1.6;
+  margin-left: 30px;
+
+}
+
+.righthdcol {
+float:right;
+
+
+}
+
+
+
+.media{
+  height: 111px;
+  background-color: #eeeeee;
+  border-bottom: 1px solid dimgrey;
+  margin-top: -10px;
+
+}
+
+.text{
+margin-top: 20px;
+color:grey;
+font-family: serif;
+}
+.h3{
+margin-top: 15px;
+margin-bottom: 15px;
+font-style: italic;
+font-weight: bold;
+font-size: 26px;
+}
+
+.paragraph {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.greenbox{
+  background-color: #ebebeb;
+  margin-top: 40px;
+  height:300px;
+  border: 1px solid black;
+  padding-bottom: 145px;
+  border-radius: 5px;
+}
+.boxparagraph{
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 700px;
+}
+
+.YourEmail{
+  background-color: white;
+  color: #a9a9a9;
+  border: .5px black solid;
+  margin-bottom: 75px;
+}
+.email{
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 5px;
+}
