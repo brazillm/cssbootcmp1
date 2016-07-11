@@ -416,6 +416,24 @@ font-family: 'PT Serif',serif;
   font-weight: 600;
 
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) {
+.topcontainer {
+  width: 50%;
 
+}
+.getstarted{
+  float:right;
+}
+.twelveweekcontainer {
+  width:50%;
+}
+.coursescontainer{
+width: 50%;
+display: block;
+}
+.employerscontainer{
+  width:50%;
+}
+.contactcontainer{
+  width: 50%;
 }
