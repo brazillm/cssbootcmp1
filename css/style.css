@@ -13,7 +13,7 @@
   position: relative;
  top: 50%;
  transform: translateY(-50%);
- padding-top: 10px;
+ padding-top: 15%;
 }
 
 
@@ -24,15 +24,16 @@
 }
 .getstarted{
   height: 50px;
-  width: 75px;
+  padding:15px;
   background-color: #6fbbb7;
   border: none;
   color: white;
   text-decoration: none;
   border-radius: 3px;
-  font-size: 20px;
+  font-size: 25px;
   font-family:'PT Serif', serif;
   font-style: italic;
+  margin-left: 120px;
 
   }
 
@@ -56,27 +57,39 @@
   margin-bottom: 20px;
   padding:20px;
 }
-.button{
-  height: 50px;
-  width: 100px;
+.buttonfact{
+  text-align: center;
   background-color: #6fbbb7;
-  color:white;
+  color: white;
   font-style: italic;
   font-family: 'PT Serif', serif;
-  font-size: 30px;
-  padding: 15px;
-  margin-left: 50px;
-  margin-top: 20px;
-  border-radius: 3px;
+  font-size: 24px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5px;
+
+}
+.youremailhere{
+  color:lightgrey;
+
+  border: .5px solid lightgrey;
+  font-size: 18px;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding:15px;
 }
 
 
 
-
 .lefthdcol{
-  margin-left: 5%;
+  margin-left:5%;
   color: white;
   font-size: 25px;
+
+
 }
 
 .lefttext{
@@ -87,7 +100,8 @@
 }
 
 .righthdcol {
-float:right;
+
+padding:20px;
 
 
 }
@@ -122,17 +136,21 @@ font-size: 26px;
 
 
 .greenbox{
-  background-color: #ebebeb;
-  margin-top: 40px;
-  height:300px;
-
-  padding-bottom: 145px;
-  border-radius: 5px;
+background-color:#ebebeb;
+border-radius: 5px;
 }
-.boxparagraph{
+.boxph5{
   font-size: 18px;
   line-height: 1.5em;
   font-weight: 700px;
+  margin-top: 40px
+}
+
+.quickoverview{
+  padding-bottom: 50px;
+  font-family: 'PT Serif',serif;
+  line-height: 1.6em;
+  font-size: 18px;
 }
 
 .YourEmail{
@@ -147,7 +165,8 @@ font-size: 26px;
     font-size: 24px;
     font-style: italic;
     font-weight: bolder;
-    padding: 5px;
+    margin-bottom: auto;
+
 }
 .discovercolumn{
   height: 415px;
@@ -181,25 +200,25 @@ padding-bottom: 40px;
 }
 
 .frontend {
-  color:orange;
+  color:#ce832d;
   font-size: 20px;
   line-height: 1.4em;
   padding-top: 5px;
 }
 
 .backend{
-  color:red;
+  color:#B8584C;
   line-height: 1.4em;
   padding-top: 5px;
 }
 .mobile{
-  color: pink;
+  color: #e1d292;
 line-height: 1.4em;
 padding-top: 5px;
 }
 .design{
   line-height: 1.4em;
-  color:teal;
+  color:#35a0ad;
   padding-top: 5px;
 }
 .bottompic {
@@ -208,7 +227,7 @@ background-image: url('../images/bottom-image.jpg');
 border: black 1px solid;
 }
 .employersrow{
-border: 1px red solid;
+
 height: 150px;
 
 }
@@ -219,7 +238,9 @@ height: 150px;
 }
 .employersh2{
 font-style: italic;
-
+font-family: 'PT Serif', serif;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 .employerstext{
   font-size: 18px;
@@ -236,9 +257,12 @@ font-style: italic;
 
 .employers1row {
 border: black 1px solid;
-
+}
+.logorow{
+padding-bottom: 500px;
 
 }
+
 .logo1column{
 text-align: center;
 
@@ -252,27 +276,46 @@ text-align: center;
   text-align: center;
 
 }
-.employersbutton{
+.empbuttoncolumn{
+
   text-align: center;
-  padding-top: 500px;
+
+}
+
+
+.employersbutton{
 
 
 }
+.button{
+  text-align: center;
+  background-color: #6fbbb7;
+  color: white;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5px;
+  margin-top: 400px;
+}
+
 .contactrow{
 
 height: 319px;
 margin-left: 15;
 margin-right:15;
+
 }
 .questions{
-color: #teal;
-font-family: 'PT Serif',serif;
-padding-top: 15px;
-padding-left:15%;
-font-size: 25px;
+  color: #838F95;
+  font-family: 'PT Serif',serif;
+  padding-top: 15px;
+  padding-left:15%;
+  font-size: 25px;
 }
 .letstalk{
-  color: #teal;
+  color: #838F95;
   font-family: 'PT Serif',serif;
   padding-top: 15px;
   padding-left:15%;
@@ -281,12 +324,98 @@ font-size: 25px;
   font-weight: bolder;
 }
 .letstalktext{
-padding-top: 15px;
-padding-bottom:15px;
-padding-left: 15%;
-padding-right: 10%;
-color: red;
+  padding-top: 15px;
+  padding-bottom:15px;
+  padding-left: 15%;
+  padding-right: 10%;
+  color: #838F95;
+  line-height: 1.6em;
+  font-size: 18px;
+  font-family: 'PT Serif',serif;
+}
+
+
+
+.contactboxl{
+  background-color: #ebebeb;
+  margin-top:40px;
+  margin-right: 10px;
+  height:309px;
+  width: 20%;
+  border-radius: 5px;
+  border-bottom: 2px solid grey;
+  font-family: 'PT Serif',serif;
+  line-height: 1.6em;
+
+}
+
+
+
+.boxtextl{
+padding-bottom:50px;
 line-height: 1.6em;
 font-size: 18px;
 font-family: 'PT Serif',serif;
+}
+
+
+
+.contactboxr{
+  background-color: #ebebeb;
+  margin-top:40px;
+  margin-left: 10px;
+  height:309px;
+  width: 20%;
+  border-radius: 5px;
+  border-bottom: 2px solid grey;
+  font-family: 'PT Serif',serif;
+  line-height: 1.6em;
+}
+.boxtextr{
+padding-bottom: 80px;
+line-height: 1.6em;
+font-size: 18px;
+font-family: 'PT Serif',serif;
+}
+
+.buttonphone{
+  text-align: center;
+  background-color: #6fbbb7;
+  color: white;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  padding-left: 60px;
+  padding-right: 40px;
+  border-radius: 5px;
+
+}
+
+.buttonemail{
+  text-align: center;
+  background-color: #6fbbb7;
+  color: white;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5px;
+
+
+}
+
+.contacth5{
+  height:50px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.contacth4{
+  padding-top: 15px;
+  font-family: 'PT Serif', serif;
+  font-weight: 600;
+
+}
+@media (min-width: 767px) {
+
 }
